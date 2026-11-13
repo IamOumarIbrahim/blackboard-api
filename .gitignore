@@ -1,0 +1,14 @@
+# secrets / session data - never commit
+cookies.txt
+curl.txt
+*.cookies
+cookies*.txt
+
+# local env, logs, agent run artifacts
+.venv/
+runs/
+scripts/
+*.log
+*.err
+dryrun.txt
+__pycache__/
